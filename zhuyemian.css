@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(159, 242, 242);
+}
+
+.biaoti {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.my-img {
+    border: 0;
+    width: 150px;
+    height: 100px;
+}
+
+ul {
+    margin: 5px auto;
+    width: 900px;
+    list-style-type: none;
+    height: 320px;
+}
+
+li {
+    float: left;
+    width: 150px;
+    height: 130px;
+    margin: 15px;
+}
+
+.boss {
+    border: 0;
+    width: 150px;
+    height: 100px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 4px solid #FF0000;
+}
+
+.my-a {
+    color: blue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover img {
+    transform: rotate(360deg);
+    transition: all 0.3s;
+    border-radius: 55px 25px;
+    box-shadow: 5px 5px 10px #da85d9;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 380px;
+    background: url(img/zhuce.png);
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.box>h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+.box .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.box .input-box>label {
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+}
+
+.box .input-box>input {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    height: 35px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    transition: 0.2s;
+    outline: none;
+    padding: 0 10 px;
+}
+
+.box .input-box>input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.box .btn-box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box .btn-box>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    transition: 0.2s;
+    width: 250px;
+    text-align: end;
+}
+
+.box .btn-box>a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.box .btn-box>div {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box .btn-box>div>button {
+    width: 120px;
+    height: 35px;
+    border: 1px solid rgba(197.81.58.0.8);
+    background: rgba(225, 57, 57, 0.645);
+    color: rgba(255.255.255.0.9);
+    border-radius: 5px;
+}
+
+.box .btn-box>div>button:nth-of-type(2) {
+    margin-left: 10px;
+}
+
+/* .xingming {
+    text-align: right;
+    color: deepskyblue;
+} */
